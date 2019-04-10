@@ -4,68 +4,68 @@
 #include <string.h>
 #include <stdlib.h>
 #include <pthread.h>
-#define MAX 10000
+#define MAX 100000
 typedef unsigned char byte;
 
 typedef struct archive{
 	char dir_name[MAX];
-	int dir_type;
+	long int dir_type;
 	int position;
-	char wordSearch[20];
-	int numberWords;
-}arqDir;
+	char word_search[20];
+	int number_words;
+}arq_dir;
 
 typedef struct works{
 	int start;
 	int end;
-	arqDir *pointerDirectory;
-}worksThreads;
+	arq_dir *pointer_directory;
+}works_threads;
 
-void write(arqDir *contentFile, char * nameDirectory, char name[], int type){
-	int point = contentFile->position;
-	snprintf((contentFile+point)->dir_name,sizeof(arqDir),"%s/%s", nameDirectory, name);
-	(contentFile+point)->dir_type = type;
-	contentFile->position = ((contentFile->position)+1);
+void write(arq_dir *content_file, char * name_directory, char name[], int type){
+	int point = content_file->position;
+	snprintf((content_file+point)->dir_name,sizeof(arq_dir),"%s/%s", name_directory, name);
+	(content_file+point)->dir_type = type;
+	content_file->position = ((content_file->position)+1);
 	return;
 };
 
-int openListDirectory(char *nameDirectory, arqDir *contentFile){
+int openListDirectory(char *name_directory, arq_dir *content_file){
 	char entrada[PATH_MAX];
 	struct dirent* entry;
-	// printf("abrindo nameDirectory %s\n", nameDirectory);
-	DIR* dir = opendir(nameDirectory);
+	// printf("abrindo name_directory %s\n", name_directory);
+	DIR* dir = opendir(name_directory);
 	if (dir == NULL){
-		// printf("não foi possivel abrir o nameDirectory %s\n", nameDirectory);
+		// printf("não foi possivel abrir o name_directory %s\n", name_directory);
 		return -1;
 	}
 
 	for (;;){
 		entry = readdir(dir);
 		if (entry == NULL){
-			// printf("fim do nameDirectory %s\n", nameDirectory);
+			// printf("fim do name_directory %s\n", name_directory);
 			closedir(dir);
 			break;
 		}
 
-		snprintf(entrada,sizeof(entrada),"%s/%s", nameDirectory, entry->d_name);
+		snprintf(entrada,sizeof(entrada),"%s/%s", name_directory, entry->d_name);
 
 		if ((strcmp(".",entry->d_name)) && (strcmp("..",entry->d_name)) && (entry->d_type == 4)){
 			// printf("entrou no dir %s\n",entry->d_name);
-			write(contentFile, nameDirectory, entry->d_name, entry->d_type);
-			openListDirectory(entrada, contentFile);
+			write(content_file, name_directory, entry->d_name, entry->d_type);
+			openListDirectory(entrada, content_file);
 
 		}else if ((strcmp(".",entry->d_name)) && (strcmp("..",entry->d_name)) && (entry->d_type != 4)){
-			write(contentFile, nameDirectory, entry->d_name, entry->d_type);			
-			// printf("%s\n", entry->d_name);
+			write(content_file, name_directory, entry->d_name, entry->d_type);			
 		}
 	}
+	return 0;
 };
 
 int boyerMoore(byte a[], int m, byte b[], int n){
 	// printf("To no boyer\n");
-	printf("TEXTO; %s\n", a);
+	// printf("TEXTO; %s\n", a);
 	// printf("Palavra:%d\n", m);
-	printf("PALAVRA:%s\n", b);
+	// printf("PALAVRA:%s\n", b);
 	// printf("Texto:%d\n", n);
 
 	int ult[256]; // o alfabeto é 0..255
@@ -89,21 +89,19 @@ int boyerMoore(byte a[], int m, byte b[], int n){
    return ocorre;
 };	
 
-void greep(arqDir *contentFile){
-	printf("ENTROU NO Greep\n");
+void greep(arq_dir *content_file){
+	// printf("ENTROU NO Greep\n");
 	FILE *arq;
-	int i=0;
 	char linha[100];
-	char *result;
-	int numberOcorr=0;
-	printf("Tipo arquivo: %d\n", contentFile->dir_type);
-	if(contentFile->dir_type != 4){
-		arq = fopen(contentFile->dir_name, "r");
+	int number_ocorr=0;
+	// printf("Tipo arquivo: %d\n", content_file->dir_type);
+	if(content_file->dir_type != 4){
+		arq = fopen(content_file->dir_name, "r");
 		if (arq == NULL){
 			printf("Erro na abertura do arquivo\n");
 			return;
 		}
-		printf("ABRIU ARQUIVO\n");
+		// printf("ABRIU ARQUIVO\n");
 		char ch;
 		int g=0;
 		while((ch = fgetc(arq)) != EOF){
@@ -111,99 +109,120 @@ void greep(arqDir *contentFile){
 			g++;
 		}
 		//POSSO CHAMAR O ALGORITOMO BOYER-MOORE
-		printf("Chega aqui?\n");
+		// printf("Chega aqui?\n");
 		char teste[20];
-		strcpy(teste, (contentFile->wordSearch));
-		int sizeWord = strlen(teste);
-		printf("AI->:%d\n", strlen(linha));
-		printf("AI->:%s\n", contentFile->wordSearch);
-		printf("Antes de entrar no Boyer\n");
-		numberOcorr = boyerMoore(contentFile->wordSearch, (strlen(teste)-1), linha, (strlen(linha)-1));
-		contentFile->numberWords = numberOcorr;
-		printf("NUMERO DE OCORRENCIA:%d\n", contentFile->numberWords);
+		strcpy(teste, (content_file->word_search));
+		// int sizeWord = strlen(teste);
+		// printf("AI->:%d\n", strlen(linha));
+		// printf("AI->:%s\n", content_file->word_search);
+		// printf("Antes de entrar no Boyer\n");
+		number_ocorr = boyerMoore(content_file->word_search, (strlen(teste)-1), linha, (strlen(linha)-1));
+		content_file->number_words = number_ocorr;
+		// printf("NUMERO DE OCORRENCIA:%d\n", content_file->number_words);
 	}
 };
 
-void *mainThreads(void  *arg){
-	printf("TO mainThreads\n");
-	worksThreads *task = (worksThreads*) arg;
-	printf("%d\n", task->start);
-	printf("%d\n", task->end);
-	
+void mainThreads(void  *arg){
+	// printf("TO mainThreads\n");
+	works_threads *task = (works_threads*) arg;
+	// printf("%d\n", task->start);
+	// printf("%d\n", task->end);
+
+	// (*(task->pointer_directory))+= task->start;
+
 	for(int i = task->start; i < task->end; i++){
-		printf("Antes o greep\n");
-		greep(task->pointerDirectory);
-		printf("%s\n", task->pointerDirectory->dir_name);
-		printf("passei o greep\n");
-		*(task->pointerDirectory)++;
-		printf("passei o greep\n");
+		// printf("Antes o greep\n");
+		greep(task->pointer_directory);
+		// printf("OLHA AQUI GIULIANO %s\n", task->pointer_directory->dir_name);
+		(task->pointer_directory)++;
+		//Eu mechi aqui era *(task->pointer_directory)++
 	}
 };
 
-void* printa(arqDir *aham){
-	// Testing
+void printa(arq_dir *aham){
 	for(int j = 0; j < (aham->position); j++){
-		printf("%d-------> %s\n",j, (aham+j)->dir_name);
+		printf("%d-------> %p\n",j, (aham+j)->dir_name);
 		printf("%d\n", (aham+j)->dir_type);		
 	}
 };
 
-int main(int *argc, char const *argv[]){
-	// printf("%s\n", argv[1]);
+int main(int argc, char const *argv[]){
+	if (argc != 4){
+		printf("Numero de argumentos incorreto\nModo de uso:\n\n	./pgrep <diretorio> <numero de Threads> <palvra a ser buscada>\n\n");
+		exit(1);
+	}
 	// List Directory
 	char nameDirectorySpecific[200];
 	char word[20];
 	strcpy(word, argv[3]);
 	strcpy(nameDirectorySpecific, argv[1]);
-	arqDir *contentFile;
-	contentFile = (arqDir*)malloc(MAX*sizeof(struct dirent));
-	if (contentFile == NULL) {
+	arq_dir *content_file;
+	content_file = (arq_dir*)malloc(MAX*sizeof(struct dirent));
+	if (content_file == NULL) {
 		printf("Error\n");
 		exit(1);
 	}
-	// contentFile->wordSearch = word;
-	openListDirectory(nameDirectorySpecific, contentFile);
-	for(int m=0; m<contentFile->position; m++){
-		strcpy((contentFile+m)->wordSearch, word);
-		printf("%s\n", (contentFile+m)->wordSearch);
+	// content_file->word_search = word;
+	int resp = openListDirectory(nameDirectorySpecific, content_file);
+	if (resp == -1) {
+		printf("Diretorio Não encontrado\n");
+		exit(1);	
 	}
+	
+	for(int m=0; m<content_file->position; m++){
+		strcpy((content_file+m)->word_search, word);
+		// printf("%s\n", (content_file+m)->word_search);
+	}
+	printa(content_file);
 	// Create Threads
 	pthread_t threads[atoi(argv[2])];
-	worksThreads *task = malloc(atoi(argv[2])*sizeof(worksThreads));
-	int divisionWork = (contentFile->position)%(atoi(argv[2]));
+	works_threads *task = malloc(atoi(argv[2])*sizeof(works_threads));
+	int divisionWork = (content_file->position)%(atoi(argv[2]));
 	for(int i = 0; i < atoi(argv[2]); i++){
-		int workSize = (contentFile->position)/(atoi(argv[2]));
-		printf("%d\n", workSize);
+		int workSize = (content_file->position)/(atoi(argv[2]));
+		// printf("%d\n", workSize);
 		if (i < divisionWork) 
 			workSize += 1;
 		int start = i * workSize;
 		task[i].start = start;
-		printf("%d\n", task[i].start);
+		// printf("%d\n", task[i].start);
 		int end = (i+1) * workSize;
 		task[i].end = end;
-		printf("%d\n", task[i].end);
-		task[i].pointerDirectory = contentFile;
-		printf("AHAM:%p\n", contentFile);
+		// printf("%d\n", task[i].end);
+		
+		task[i].pointer_directory = (content_file+start+start);
+		// printf("ALOUUUU->>%p\n", task[i].pointer_directory);
+		// printa(task[i].pointer_directory);
+		// printf("AHAM:%p\n", content_file);
+		// printf("--------THREAD[%d]--------\n",i);	
 		int rc = pthread_create(&threads[i], NULL, (void*)mainThreads, (void*)&task[i]);
       	if (rc){
         	printf("ERROR; return code from pthread_create() is %d\n", rc);
          	exit(-1);
       	}
-		// contentFile+=(task[i].end);
-		// printf("%p\n", contentFile);
+
+		// for(int h=0; h<end; h++){
+		// 	content_file++;
+		// }
+		// content_file+end;
+		// printf("AQUI AQUI ---->>>%s\n", content_file->dir_name);
+		// content_file+=(task[i].end);
+		// printf("%p\n", content_file);
 	}
-	// printa(contentFile);
-	printf("antes de matar as threads\n");
+	// printa(content_file);
+	// printf("antes de matar as threads\n");
 	for (int i = 0; i < atoi(argv[2]); ++i) {
         if(pthread_join(threads[i], NULL))
         	printf("failed to join thread %d\n", i);
 	}
 	// pthread_exit(NULL);
-	printf("ta aqui\n");
-	for(int m=0; m<contentFile->position; m++){
-		if((contentFile+m)->numberWords != 0){
-			printf("%s : %d\n",(contentFile+m)->dir_name, (contentFile+m)->numberWords);
+	// printf("ta aqui\n");
+	for(int m=0; m<content_file->position; m++){
+		if((content_file+m)->number_words != 0){
+			printf("%s : %d\n",(content_file+m)->dir_name, (content_file+m)->number_words);
 		}
 	}
 	printf("ZERO\n");
+	free(content_file);
+	free(task);
 };
