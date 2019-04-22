@@ -15,7 +15,7 @@ typedef struct archive{
 	int dir_type;
 	int position;
 	int lane[text_max];
-    char word_search[word_max];
+    // char word_search[word_max];
 }arq_dir;
 
 typedef struct works{
@@ -27,7 +27,7 @@ typedef struct works{
 pthread_mutex_t mutex;
 regex_t reg;
 
-int search_reg(byte a[], int m, byte b[], int n){   
+int search_reg(byte b[]){   
     if ((regexec(&reg, (char*)b, 0, (regmatch_t *)NULL, 0)) == 0){
         return 1;
     }else{
@@ -39,9 +39,9 @@ void greep(arq_dir *content_file){
     FILE *arq;
 	char linha[text_max];
 	int number_ocorr=0;
-    char teste[20];
-	strcpy(teste, (content_file->word_search));
-	// if(content_file->dir_type != 4){
+    // char teste[20];
+	// strcpy(teste, (content_file->word_search));
+	if(content_file->dir_type != 4){
 		arq = fopen(content_file->dir_name, "rt");
 		if (arq == NULL){
 			printf("Erro na abertura do arquivo\n");
@@ -50,14 +50,14 @@ void greep(arq_dir *content_file){
 		int g=-1, i=0;
         while(fgets(linha, sizeof(linha), arq) != NULL){
 			g++;
-            number_ocorr = search_reg((byte*)teste, (strlen(teste)-1), (byte*)linha, (strlen(linha)-1));
+            number_ocorr = search_reg((byte*)linha);
 		    if (number_ocorr == 1){
                 content_file->lane[i] = g;
                 i++;
             }
 		}
         content_file->lane[i] = -1;
-	// }
+	}
 };
 
 void main_threads(void *arg){
@@ -112,7 +112,7 @@ int cria_thread(arq_dir *content_file, int number_thread){
     return 0;
 };
 
-int list_directory(char *directory, arq_dir *content_file, char *word_search, int number_thread){
+int list_directory(char *directory, arq_dir *content_file, int number_thread){
     char name_complete[dir_name_max];
     struct dirent *entry;
     DIR *dir;
@@ -131,17 +131,16 @@ int list_directory(char *directory, arq_dir *content_file, char *word_search, in
             printf("TO AQUI DENOVO\n");
             int response = cria_thread(content_file, number_thread);
             if (response == -1){
-                printf("DEU MERDA\n\n");
+                printf("Erro na funcao de criação das Threads\n\n");
                 exit(1);
             }
-            printf("PASSA?");
 
             pthread_mutex_lock(&mutex);
             for(int h = 0; h < content_file->position; h++){
                 if ((content_file+h)->lane[0] != -1){
                     int k=0;
                     while ((content_file+h)->lane[k] != -1){
-                        printf("%s:", (content_file+h)->dir_name);
+                        printf("%s: ", (content_file+h)->dir_name);
                         printf("%d\n", (content_file+h)->lane[k]);
                         k++;
                         if ((content_file+h)->lane[k] == 0){
@@ -158,14 +157,14 @@ int list_directory(char *directory, arq_dir *content_file, char *word_search, in
         
         if ((strcmp(".",entry->d_name)) && (strcmp("..",entry->d_name)) && (entry->d_type == 4)){
             strcpy((content_file+(content_file->position))->dir_name, name_complete);
-            strcpy((content_file+(content_file->position))->word_search, word_search);            
+            // strcpy((content_file+(content_file->position))->word_search, word_search);            
             (content_file+(content_file->position))->dir_type = entry->d_type;
             (content_file)->position += 1;
-			list_directory(name_complete, content_file, word_search, number_thread);
+			list_directory(name_complete, content_file, number_thread);
 
 		}else if ((strcmp(".",entry->d_name)) && (strcmp("..",entry->d_name)) && (entry->d_type != 4)){
             strcpy((content_file+(content_file->position))->dir_name, name_complete);
-            strcpy((content_file+(content_file->position))->word_search, word_search);                        
+            // strcpy((content_file+(content_file->position))->word_search, word_search);                        
             (content_file+(content_file->position))->dir_type = entry->d_type;
             (content_file)->position += 1;            
         }
@@ -178,9 +177,13 @@ int main(int argc, const char *argv[]){
         printf("Comando invalido\nComando:\n\n    ./pgrep <numero de threads> <palavra a ser buscada> <diretorio>\n\n");
         exit(1);
     }
+    
     int number_thread = atoi(argv[1]);
+    if (number_thread > 100) {
+        number_thread = 100;
+    }
     char directory[word_max];
-    char word_search[word_max];
+    // char word_search[word_max];
     strcpy(directory, argv[3]);
 
     if (regcomp(&reg , argv[2], REG_EXTENDED|REG_NOSUB) != 0) {
@@ -188,7 +191,7 @@ int main(int argc, const char *argv[]){
 		exit(1);
 	}
 
-    strcpy(word_search, argv[2]);
+    // strcpy(word_search, argv[2]);
 
     arq_dir *content_file = (arq_dir*)malloc(malloc_max*sizeof(arq_dir)); 
     if(content_file == NULL){
@@ -197,14 +200,14 @@ int main(int argc, const char *argv[]){
     }
 	pthread_mutex_init(&mutex,NULL);
     int respost=0; 
-    if((respost=list_directory(directory, content_file, word_search, number_thread)) == -1){
+    if((respost=list_directory(directory, content_file, number_thread)) == -1){
         printf("Erro durante a abertura dos diretorios ou Diretorio invalido\n\n");
         exit(1);
     }
     if (content_file->position != 0){
         int response = cria_thread(content_file, number_thread);
         if (response == -1){
-            printf("DEU MERDA\n\n");
+            printf("Erro na funcao de criacao das Threads\n\n");
             exit(1);
         }
         pthread_mutex_lock(&mutex);
@@ -212,7 +215,7 @@ int main(int argc, const char *argv[]){
             if ((content_file+h)->lane[0] != -1){
                 int k=0;
                 while ((content_file+h)->lane[k] != -1){
-                    printf("%s:", (content_file+h)->dir_name);
+                    printf("%s: ", (content_file+h)->dir_name);
                     printf("%d\n", (content_file+h)->lane[k]);
                     k++;
                     if ((content_file+h)->lane[k] == 0){
