@@ -4,7 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <pthread.h>
-#define MAX 100000
+#define MAX 1000000
+#define PATH_MAX 1000000
 typedef unsigned char byte;
 
 typedef struct archive{
@@ -24,7 +25,7 @@ typedef struct works{
 void write(arq_dir *content_file, char * name_directory, char name[], int type){
 	int point = content_file->position;
 	snprintf((content_file+point)->dir_name,sizeof(arq_dir),"%s/%s", name_directory, name);
-	(content_file+point)->dir_type = type;
+	// (content_file+point)->dir_type = type;
 	content_file->position = ((content_file->position)+1);
 	return;
 };
@@ -211,10 +212,10 @@ int main(int argc, char const *argv[]){
 	}
 	// printa(content_file);
 	// printf("antes de matar as threads\n");
-	for (int i = 0; i < atoi(argv[2]); ++i) {
-        if(pthread_join(threads[i], NULL))
-        	printf("failed to join thread %d\n", i);
-	}
+		for (int i = 0; i < atoi(argv[2]); ++i) {
+			if(pthread_join(threads[i], NULL))
+				printf("failed to join thread %d\n", i);
+		}
 	// pthread_exit(NULL);
 	// printf("ta aqui\n");
 	for(int m=0; m<content_file->position; m++){
