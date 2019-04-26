@@ -95,26 +95,37 @@ void matrix_dgemm_2(unsigned n, double *restrict _C, double *restrict _A, double
      */
     /* Seu código aqui. */
 
-    unsigned I, J, K, i, j, k,set_position_I=0, set_position_J=0, set_position_K=0, sem_nome=128;
-    unsigned set_bloc=n/sem_nome, bloc_complet=set_bloc*set_bloc, count_bloc_control=0;
-	unsigned Bkj;
-    //while(bloc_complet != count_bloc_control){
-        for (J = 0; J < n; J+=bloc_complet){
-            for (K = 0; K < n; K+=bloc_complet){
-                for (I = 0; I < n; I+=bloc_complet){
-                	for(j=J; j<J+bloc_complet-1 && j<n; j++){
-						for(k=K; k<K+bloc_complet-1 && k<n; k++){
-							Bkj = B[j*n+k];
-							for(i=I; i<I+bloc_complet-1 && i<n; i++){
-								C[j*n+i] += A[k*n+i] * Bkj;
+    unsigned ii, jj, kk, i, j, k, sem_nome=128;
+
+    for (i = 0; i < n; i+=sem_nome){
+            for (j = 0; j < n; j+=sem_nome){
+                for (k = 0; k < n; k+=sem_nome){
+                	for(ii=i; ii<i+sem_nome && ii<n; ii++){
+						for(jj=j; jj<j+sem_nome && jj<n; jj++){
+							for(kk=k; kk<k+sem_nome && kk<n; kk++){
+								C(ii, kk) += A(ii, jj) * B(jj, kk);
 							}
 						}
 					}
 				}
             }
         }
+
+           /* for (j = 0; j < n; j+=sem_nome){
+                for (k = 1; k < n; k+=sem_nome){
+                	for(ii=1; ii<n; ii++){
+						for(jj=j; jj<j+sem_nome && jj<n; jj++){
+							//Bkj = B[j*n+k];
+							for(kk=k; kk<k+sem_nome && kk<n; kk++){
+								C(jj, ii) += A(ii, kk) * B(jj, kk);
+							}
+						}
+					}
+				}
+            }*/
            // count_bloc_control+=1;
     //}
+
 #undef A
 #undef B
 #undef C
