@@ -1,11 +1,15 @@
 #include "stdio.h"
 #include "matrix.h"
-
 #include <stdlib.h>
 
 /* Módulo de x*/
 #define ABS(x) ((x > 0)? (x): -(x))
-
+/* Funcão min*/
+//#define min(a, b) (((a) < (b)) ? (a) : (b))
+int min(int a, int b)
+{
+      return a < b ? a : b;
+}
 
 void matrix_fill_rand(unsigned n, double *restrict _A)
 {
@@ -95,21 +99,34 @@ void matrix_dgemm_2(unsigned n, double *restrict _C, double *restrict _A, double
      */
     /* Seu código aqui. */
 
-    unsigned ii, jj, kk, i, j, k, sem_nome=128;
-
-    for (i = 0; i < n; i+=sem_nome){
-            for (j = 0; j < n; j+=sem_nome){
-                for (k = 0; k < n; k+=sem_nome){
-                	for(ii=i; ii<i+sem_nome && ii<n; ii++){
-						for(jj=j; jj<j+sem_nome && jj<n; jj++){
-							for(kk=k; kk<k+sem_nome && kk<n; kk++){
-								C(ii, kk) += A(ii, jj) * B(jj, kk);
-							}
-						}
-					}
-				}
+    unsigned ii, jj, kk, i, j, k, block=64;
+    double resposta=0;
+    //for (i = 0; i < n; i+=sem_nome){
+    /* for (i = 0; i < n; i+=block){ */
+    /*     for(k=0; k<n; k+=block){ */
+    /*         for(ii=i; ii < i+block; ++ii){ */
+    /*             for(kk=k; kk < k+block; ++kk){ */
+    /*                 for (j = 0; j < n; ++j){ */
+    /*                     C(ii, j) += A(ii, kk) * B(kk, j); */
+    /*                 } */
+    /*             } */
+    /*         } */
+    /*     } */
+    /* } */
+    for (i = 0; i < n; i+=block){
+        for(k=0; k<n; k+=block){
+            for(ii=i; ii < i+block; ++ii){
+                for(kk=k; kk < k+block; ++kk){
+                    int C_offset = n*ii;
+                    double A_part = A(ii, kk);
+                    for (j = 0; j < n; ++j){
+                        _C[C_offset+j] += A_part * B(kk, j);
+                    }
+                }
             }
         }
+    }
+            // }
 
            /* for (j = 0; j < n; j+=sem_nome){
                 for (k = 1; k < n; k+=sem_nome){
