@@ -143,3 +143,39 @@ tamanho do vetor8192 Algortmo 1
 478.319590
 498.693567
 489.577384
+tamanho do vetor8192 Algortmo 2
+514.282601
+503.333946
+486.985745
+487.332213
+486.789400
+476.461035
+484.980920
+480.788378
+496.920856
+487.045905
+tamanho do vetor16384 Algortmo 1
+tamanho do vetor16384 Algortmo 2
+tamanho do vetor32768 Algortmo 1
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+tamanho do vetor32768 Algortmo 2
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+Seu computador não tem memória pra isso!
+tamanho do vetor65536 Algortmo 1
