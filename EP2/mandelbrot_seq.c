@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-//#include <malloc.h>
 #include <png.h>
 #include <string.h>
 #include <stdlib.h>
@@ -11,11 +10,11 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
 
 int writeImage(char* filename, int width, int height, float *buffer, char* title);
 
-inline void setRGB(png_byte *ptr, float val);
+static void setRGB(png_byte *ptr, float val);
 
 /* ./exec <min_real> <min_imag> <max_real> <max_imag> <W> <H> <CPU/GPU> <Treadhs> <Saida> */
 int main(int argc, char *argv[]){
-	
+
 	if(argc != 10){
 		printf("Please specify output file\n");
 		return 1;
@@ -35,14 +34,8 @@ int main(int argc, char *argv[]){
 	strcpy(file_name, argv[9]);
 	int iteration = MAX_ITERATION;
 
-	printf("%f min_imag\n", min_imag);
-	printf("%f max_imag\n", max_imag);
-	printf("%f max_real\n", max_real);
-	printf("%f min_real\n", min_real);
-
 	printf("Creating Image\n");
-	float *buffer = mandelbrot_image(width, height, -1.0, -1.31, 0.0, 0.0, 100);
-	// float *buffer = mandelbrot_image(width, height, min_real, min_imag, max_real, max_imag, 100);
+    float *buffer = mandelbrot_image(width, height, min_real, min_imag, max_real, max_imag, 100);
 	if (buffer == NULL) {
 		return 1;
 	}
@@ -56,11 +49,6 @@ int main(int argc, char *argv[]){
 }
 
 float *mandelbrot_image(int width, int height, float min_real, float min_imag, float max_real, float max_imag, int iteration_max){
-	
-	printf("%f min_imag\n", min_imag);
-	printf("%f max_imag\n", max_imag);
-	printf("%f max_real\n", max_real);
-	printf("%f min_real\n", min_real);
 
 	float *buffer = (float*)malloc(width * height * sizeof(float));
 	if (buffer == NULL) {
@@ -97,9 +85,9 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
 			if (iteration < iteration_max) {
 				float modZ = sqrt(z_x*z_x + z_y*z_y);
 				float mu = iteration - (log(log(modZ))) / log(2);
-				if (mu > maxMu) 
+				if (mu > maxMu)
 					maxMu = mu;
-				if (mu < minMu) 
+				if (mu < minMu)
 					minMu = mu;
 				buffer[y_position * width + x_position] = mu;
 			}
@@ -119,8 +107,8 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
 	return buffer;
 };
 
-inline void setRGB(png_byte *ptr, float val)
-{
+
+static void setRGB(png_byte *ptr, float val){
 	int v = (int)(val * 767);
 	if (v < 0) v = 0;
 	if (v > 767) v = 767;
@@ -137,14 +125,14 @@ inline void setRGB(png_byte *ptr, float val)
 	}
 };
 
-int writeImage(char* filename, int width, int height, float *buffer, char* title)
-{
+
+int writeImage(char* filename, int width, int height, float *buffer, char* title){
 	int code = 0;
 	FILE *fp = NULL;
 	png_structp png_ptr = NULL;
 	png_infop info_ptr = NULL;
 	png_bytep row = NULL;
-	
+
 	// Open file for writing (binary mode)
 	fp = fopen(filename, "wb");
 	if (fp == NULL) {
