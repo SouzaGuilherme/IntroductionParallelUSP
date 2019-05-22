@@ -93,22 +93,17 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
                 z_y2 = z_y * z_y;
             }
 
-            #pragma omp critical (section1)
-            {
-	            if (iteration < iteration_max) {
-	                modZ = sqrt(z_x*z_x + z_y*z_y);
-	                mu = iteration - (log(log(modZ))) / log(2);
-	                if (mu > maxMu)
-	                    maxMu = mu;
-	                if (mu < minMu)
-	                    minMu = mu;
-	                //#pragma omp critical
-	                buffer[y_position * width + x_position] = mu;
-	            }
-	            else {
-	                //#pragma omp critical
-	                buffer[y_position * width + x_position] = 0;
-	            }
+	        if (iteration < iteration_max) {
+	            modZ = sqrt(z_x*z_x + z_y*z_y);
+	            mu = iteration - (log(log(modZ))) / log(2);
+	            if (mu > maxMu)
+	                maxMu = mu;
+	            if (mu < minMu)
+	                minMu = mu;
+	            buffer[y_position * width + x_position] = mu;
+	        }
+	        else {
+	            buffer[y_position * width + x_position] = 0;
 	        }
         }
     }
