@@ -68,22 +68,24 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
     int iteration = 0;
     float y_pointer;
     float x_pointer;
-    /* Crio um bloco paralelo, assim defino o numero de threads que executrão */
-  #pragma omp parallel 
+	float modZ;
+	float mu;
+	#pragma omp parallel for schedule(dynamic,10) private(y_pointer, x_pointer, y_position, x_position, z_x, z_y, z_y2, z_x2, modZ, mu, iteration) collapse(2) 	 
     for (y_position = 0 ; y_position < height ; y_position++){
-        //float y_pointer = max_imag - delt_y * y_position;
-        //#pragma omp parallel for schedule(static,8)
+        // y_pointer = max_imag - delt_y * y_position;
         for (x_position = 0 ; x_position < width ; x_position++){
             y_pointer = max_imag - delt_y * y_position;
             x_pointer = min_real + delt_x * x_position;
 
-            //printf("Y_POSITION %d THREAD: %d \n", y_position, omp_get_thread_num());
-            z_x =x_pointer;
-            z_y = y_pointer;
-            z_x2 = z_x * z_x;
-            z_y2 = z_y * z_y;
+            // printf("Y_POSITION %d THREAD: %d \n", y_position, omp_get_thread_num());
+            #pragma omp critical (section1)
+            {
+	            z_x =x_pointer;
+	            z_y = y_pointer;
+	            z_x2 = z_x * z_x;
+	            z_y2 = z_y * z_y;
+	        }
 
-            /* Esse cra aqui acho que não pode */
             for(iteration = 0; iteration < iteration_max && ((z_x2+z_y2) < 4); iteration++){
                 z_y = 2 * z_x * z_y + y_pointer;
                 z_x = z_x2 - z_y2 + x_pointer;
@@ -91,23 +93,25 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
                 z_y2 = z_y * z_y;
             }
 
-            if (iteration < iteration_max) {
-                float modZ = sqrt(z_x*z_x + z_y*z_y);
-                float mu = iteration - (log(log(modZ))) / log(2);
-                if (mu > maxMu)
-                    maxMu = mu;
-                if (mu < minMu)
-                    minMu = mu;
-                buffer[y_position * width + x_position] = mu;
-            }
-            else {
-                buffer[y_position * width + x_position] = 0;
-            }
+            #pragma omp critical (section1)
+            {
+	            if (iteration < iteration_max) {
+	                modZ = sqrt(z_x*z_x + z_y*z_y);
+	                mu = iteration - (log(log(modZ))) / log(2);
+	                if (mu > maxMu)
+	                    maxMu = mu;
+	                if (mu < minMu)
+	                    minMu = mu;
+	                //#pragma omp critical
+	                buffer[y_position * width + x_position] = mu;
+	            }
+	            else {
+	                //#pragma omp critical
+	                buffer[y_position * width + x_position] = 0;
+	            }
+	        }
         }
     }
-    //#pragma omp barrier
-
-    //sleep(10);
 
     // Scale buffer values between 0 and 1
     int count = width * height;
