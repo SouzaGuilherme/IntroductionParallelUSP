@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <omp.h>
-#define MAX_ITERATION 100;
+#define MAX_ITERATION 100
 
 /* Calc Mandelbrot Set */
 float *mandelbrot_image(int width, int height, float min_real, float min_imag, float max_real, float max_imag, int iteration);
@@ -36,7 +36,9 @@ int main(int argc, char *argv[]){
 	strcpy(file_name, argv[9]);
 	int iteration = MAX_ITERATION;
 
-	printf("Creating Image\n");
+    omp_set_num_threads(threads);
+
+    printf("Creating Image\n");
     float *buffer = mandelbrot_image(width, height, min_real, min_imag, max_real, max_imag, 100);
 	if (buffer == NULL) {
 		return 1;
@@ -70,7 +72,7 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
     float x_pointer;
 	float modZ;
 	float mu;
-	#pragma omp parallel for schedule(dynamic,10) private(y_pointer, x_pointer, y_position, x_position, z_x, z_y, z_y2, z_x2, modZ, mu, iteration) collapse(2) 	 
+#pragma omp parallel for schedule(dynamic,10) private(y_pointer, x_pointer, y_position, x_position, z_x, z_y, z_y2, z_x2, modZ, mu, iteration) collapse(2)
     for (y_position = 0 ; y_position < height ; y_position++){
         // y_pointer = max_imag - delt_y * y_position;
         for (x_position = 0 ; x_position < width ; x_position++){
@@ -93,47 +95,47 @@ float *mandelbrot_image(int width, int height, float min_real, float min_imag, f
                 z_y2 = z_y * z_y;
             }
 
-	        if (iteration < iteration_max) {
-	            modZ = sqrt(z_x*z_x + z_y*z_y);
-	            mu = iteration - (log(log(modZ))) / log(2);
-	            if (mu > maxMu)
-	                maxMu = mu;
-	            if (mu < minMu)
-	                minMu = mu;
-	            buffer[y_position * width + x_position] = mu;
-	        }
-	        else {
-	            buffer[y_position * width + x_position] = 0;
-	        }
+            buffer[y_position * width + x_position] = iteration;
         }
-    }
-
-    // Scale buffer values between 0 and 1
-    int count = width * height;
-    while (count) {
-        count --;
-        buffer[count] = (buffer[count] - minMu) / (maxMu - minMu);
     }
 
     return buffer;
 };
 
-
 static void setRGB(png_byte *ptr, float val){
-	int v = (int)(val * 767);
-	if (v < 0) v = 0;
-	if (v > 767) v = 767;
-	int offset = v % 256;
 
-	if (v<256) {
-		ptr[0] = 0; ptr[1] = 0; ptr[2] = offset;
-	}
-	else if (v<512) {
-		ptr[0] = 0; ptr[1] = offset; ptr[2] = 255-offset;
-	}
-	else {
-		ptr[0] = offset; ptr[1] = 255-offset; ptr[2] = 0;
-	}
+    int v = 255 - (int)(val/MAX_ITERATION) * 255;
+    if(v == 0){
+        ptr[0] = v;
+        ptr[1] = v;
+        ptr[2] = v;
+    }else{
+        if(val < 10){
+            ptr[0] = 192;
+            ptr[1] = 217;
+            ptr[2] = 217;
+        }else if(val < 15){
+            ptr[0] = 95;
+            ptr[1] = 159;
+            ptr[2] = 159;
+        }else if(val < 25){
+            ptr[0] = 0;
+            ptr[1] = 255;
+            ptr[2] = 255;
+        }else if(val < 50){
+            ptr[0] = 255;
+            ptr[1] = 0;
+            ptr[2] = 255;
+        }else if(val < 75){
+            ptr[0] = 234;
+            ptr[1] = 173;
+            ptr[2] = 234;
+        }else{
+            ptr[0] = 79;
+            ptr[1] = 47;
+            ptr[2] = 79;
+        }
+    }
 };
 
 
@@ -181,15 +183,6 @@ int writeImage(char* filename, int width, int height, float *buffer, char* title
 	png_set_IHDR(png_ptr, info_ptr, width, height,
 			8, PNG_COLOR_TYPE_RGB, PNG_INTERLACE_NONE,
 			PNG_COMPRESSION_TYPE_BASE, PNG_FILTER_TYPE_BASE);
-
-	// Set title
-	if (title != NULL) {
-		png_text title_text;
-		title_text.compression = PNG_TEXT_COMPRESSION_NONE;
-		title_text.key = "Title";
-		title_text.text = title;
-		png_set_text(png_ptr, info_ptr, &title_text, 1);
-	}
 
 	png_write_info(png_ptr, info_ptr);
 
