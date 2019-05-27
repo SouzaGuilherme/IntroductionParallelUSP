@@ -1,10 +1,13 @@
-CC=gcc
-CCFLAGS=-Wall -O0
-LDFLAGS=-lm -fopenmp
-GPUFLAGS=
-OPTFLAGS= -O2 
+CC=nvcc                                                                                   
+#CCFLAGS=-Wall -O0                                                                         
+LDFLAGS=-lm -lpng -O2 -Xcompiler -fopenmp                                                                      
+GPUFLAGS=-Xptxas -v
+FLAGCHAR=--expt-relaxed-constexpr                                                            
 
-	$(CC) $(CCFLAGS) set_mandelbrot.c -o mbrot $(LDFLAGS) $(GPUFLAGS) $(OPTFLAGS) 
+all:
+	#nvcc -Xptxas -v union_mandel.cu -o execUNION -lm -lpng -O2 -Xcompiler -fopenmp --expt-relaxed-constexpr
 
-clean:
-	rm -f contention
+	$(CC) $(GPUFLAGS) union_mandel.cu -o mbrot $(LDFLAGS) $(FLAGCHAR)    
+
+clean:                                                                                    
+	rm -f mbrot                                                                                                                                                                                                                                 
