@@ -15,14 +15,14 @@
 void pi_by_pi(int start, int end, double N, double* point_acess){
     double acc = 0; // Thread's local integration variable
     double interval_size = 1.0 / N; // The circle radius is 1.0
-
+    printf("interval_size %lf\n", interval_size);
     // Integrates f(x) = sqrt(1 - x^2) in [t->start, t->end[
     for(int i = start; i < end; ++i) {
         double x = (i * interval_size) + interval_size / 2;
         acc += sqrt(1 - (x * x)) * interval_size;
-        printf("ACC = %lu\n", acc);
     }
 
+    printf("ACC = %lf\n", acc);
     (*point_acess)= acc;
 };
 
@@ -39,14 +39,15 @@ int main(){
 
   /* Create memory shared */
   //key_t key = 1027153;
+  struct shmid_ds buff;
   int shmid;
   size_t size_memory = 1024;
-  double *vector;
+  double vector[number_process];
   double *point_acess;
   int flag = 0;
 
   /* crio a posição de memoria */
-  shmid = shmget(IPC_PRIVATE, sizeof(double*), IPC_CREAT | S_IRUSR | S_IWUSR);
+  shmid = shmget(IPC_PRIVATE, sizeof(vector), IPC_CREAT | S_IRUSR | S_IWUSR);
   if(shmid == -1){
       printf("ERRO CREATE\n");
       exit(1);
@@ -56,6 +57,13 @@ int main(){
   point_acess = shmat(shmid, 0, flag);
   if(point_acess == (double*)-1){
       printf("ERRO AQUIIII\n");
+      exit(1);
+  }
+
+  /* Copy information of memory shared */
+  int check = shmctl(shmid, IPC_STAT, &buff);
+  if(check == -1){
+      printf("Erro in copy information of memory shared\n");
       exit(1);
   }
 
@@ -91,8 +99,10 @@ int main(){
           }
 
           /* functions for son */
-          if(getpid() != save_pid)
+          if(getpid() != save_pid){
+              printf("VAL %d\n", val);
               pi_by_pi(start, end, val, (point_acess+b));
+          }
       }
   }
 
@@ -104,12 +114,37 @@ int main(){
         /* somo os vlores da memoria compartilhada */
         printf("Sou Solitario AGORA\n\n");
         double resultado_geral = 0;
+        double tmp = 0;
         for(int c = 0; c < number_process; c++){
-            resultado_geral += *(point_acess+c);
-            printf("position[%lu] = %f\n", c, *(point_acess+c));
+            tmp = *(point_acess+c);
+            resultado_geral += tmp;
+            printf("TMP: %lf\n", tmp);
+            printf("position[%d] = %lf\n", c, *(point_acess+c));
         }
+
+        printf("ESTADO DO SEGMENTO DE MEMORIA COMPARTILHADA %d\n",shmid) ;
+        printf("ID do usuario proprietario: %d\n",buff.shm_perm.uid) ;
+        printf("ID do grupo do proprietario: %d\n",buff.shm_perm.gid) ;
+        printf("ID do usuario criador: %d\n",buff.shm_perm.cuid) ;
+        printf("ID do grupo criador: %d\n",buff.shm_perm.cgid) ;
+        printf("Modo de acesso: %d\n",buff.shm_perm.mode) ;
+        printf("Tamanho da zona de memoria: %d\n",buff.shm_segsz) ;
+        printf("pid do criador: %d\n",buff.shm_cpid) ;
+        printf("pid  (ultima operacao): %d\n",buff.shm_lpid) ;
+        printf("aqui %d\n", buff.shm_nattch);
+
+        /* Destroy a memory shered */
+        int check_destroy = shmctl(shmid, IPC_RMID, NULL);
+        if(check_destroy == -1){
+            printf("Erro in destroy memory shared\n");
+            exit(1);
+        }
+        if(buff.shm_perm.mode == SHM_DEST)
+            printf("ok\n");
+
         printf("ACABEI\n\n");
-        printf("RESULTADO GERAL: %lu\n\n", resultado_geral);
+        printf("RESULTADO GERAL: %.12f\n\n", resultado_geral* 4);
+        printf("RESULTADO TMP: %lf\n\n", tmp);
   }
 
   return 0;
