@@ -1,0 +1,37 @@
+SEQUENCIAL
+
+500x480
+real	0m0,187s
+user	0m0,184s
+sys	0m0,000s
+
+720x576
+real	0m0,319s
+user	0m0,316s
+sys	0m0,000s
+
+1280x720
+real	0m0,641s
+user	0m0,640s
+sys	0m0,000s
+
+1440x1080
+real	0m1,102s
+user	0m1,096s
+sys	0m0,000s
+
+2048x1080
+real	0m1,543s
+user	0m1,528s
+sys	0m0,004s
+
+3840x2160
+real	0m5,718s
+user	0m5,700s
+sys	0m0,016s
+
+7680x4320
+real	0m22,584s
+user	0m22,504s
+sys	0m0,064s
+

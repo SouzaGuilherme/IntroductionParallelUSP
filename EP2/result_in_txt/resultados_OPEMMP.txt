@@ -1,0 +1,5096 @@
+THREADS:2 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,122s
+user	0m0,212s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,161s
+user	0m0,220s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,116s
+user	0m0,200s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,145s
+user	0m0,204s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,113s
+user	0m0,200s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,131s
+user	0m0,196s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,112s
+user	0m0,196s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,111s
+user	0m0,192s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,144s
+user	0m0,256s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,112s
+user	0m0,196s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,111s
+user	0m0,192s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,111s
+user	0m0,196s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,111s
+user	0m0,196s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,111s
+user	0m0,196s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,112s
+user	0m0,196s
+sys	0m0,000s
+THREADS:4 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,087s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,087s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,087s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,087s
+user	0m0,272s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,087s
+user	0m0,272s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,276s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,100s
+user	0m0,284s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,276s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,272s
+sys	0m0,008s
+THREADS:8 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,268s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,173s
+user	0m0,284s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,264s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,272s
+sys	0m0,000s
+THREADS:16 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,264s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,087s
+user	0m0,264s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,088s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,272s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,264s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,268s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,272s
+sys	0m0,000s
+THREADS:32 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,264s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,264s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,272s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,264s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,252s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,089s
+user	0m0,268s
+sys	0m0,004s
+THREADS:64 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,272s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,093s
+user	0m0,276s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,272s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,264s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,094s
+user	0m0,284s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,272s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,268s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,268s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,094s
+user	0m0,280s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,260s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,091s
+user	0m0,268s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,095s
+user	0m0,280s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,090s
+user	0m0,276s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,284s
+sys	0m0,000s
+THREADS:128 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,093s
+user	0m0,276s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,094s
+user	0m0,280s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,098s
+user	0m0,284s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,093s
+user	0m0,264s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,268s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,093s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,095s
+user	0m0,276s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,272s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,099s
+user	0m0,284s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,094s
+user	0m0,272s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,272s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,094s
+user	0m0,268s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,093s
+user	0m0,280s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,121s
+user	0m0,264s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,092s
+user	0m0,268s
+sys	0m0,008s
+THREADS:256 W:500 H:480 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,164s
+user	0m0,276s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,107s
+user	0m0,272s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,098s
+user	0m0,276s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,098s
+user	0m0,264s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,099s
+user	0m0,276s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,101s
+user	0m0,288s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,099s
+user	0m0,296s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,096s
+user	0m0,276s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,131s
+user	0m0,292s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,120s
+user	0m0,268s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,098s
+user	0m0,264s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,143s
+user	0m0,300s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,108s
+user	0m0,276s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,099s
+user	0m0,276s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,147s
+user	0m0,292s
+sys	0m0,016s
+THREADS:2 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,193s
+user	0m0,340s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,189s
+user	0m0,336s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,189s
+user	0m0,336s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,189s
+user	0m0,336s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,218s
+user	0m0,392s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,189s
+user	0m0,336s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,189s
+user	0m0,332s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,194s
+user	0m0,340s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,190s
+user	0m0,336s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,190s
+user	0m0,336s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,224s
+user	0m0,404s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,199s
+user	0m0,352s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,191s
+user	0m0,332s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,190s
+user	0m0,332s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,220s
+user	0m0,392s
+sys	0m0,004s
+THREADS:4 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,149s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,476s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,151s
+user	0m0,472s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,148s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,472s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,476s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,460s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,149s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,480s
+sys	0m0,000s
+THREADS:8 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,456s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,460s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,468s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,151s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,472s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,464s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,468s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,468s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,151s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,151s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,472s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,460s
+sys	0m0,008s
+THREADS:16 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,151s
+user	0m0,468s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,476s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,476s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,472s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,476s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,480s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,468s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,464s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,472s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,150s
+user	0m0,468s
+sys	0m0,004s
+THREADS:32 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,460s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,151s
+user	0m0,468s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,448s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,157s
+user	0m0,488s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,480s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,472s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,480s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,152s
+user	0m0,476s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,472s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,157s
+user	0m0,480s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,488s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,157s
+user	0m0,476s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,480s
+sys	0m0,000s
+THREADS:64 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,472s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,480s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,158s
+user	0m0,484s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,468s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,472s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,476s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,468s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,154s
+user	0m0,464s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,480s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,157s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,153s
+user	0m0,460s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,159s
+user	0m0,484s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,464s
+sys	0m0,020s
+THREADS:128 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,160s
+user	0m0,484s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,159s
+user	0m0,476s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,161s
+user	0m0,488s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,158s
+user	0m0,476s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,156s
+user	0m0,484s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,159s
+user	0m0,472s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,158s
+user	0m0,460s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,161s
+user	0m0,480s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,160s
+user	0m0,484s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,161s
+user	0m0,492s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,160s
+user	0m0,472s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,159s
+user	0m0,480s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,162s
+user	0m0,488s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,159s
+user	0m0,476s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,155s
+user	0m0,476s
+sys	0m0,004s
+THREADS:256 W:720 H:576 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,169s
+user	0m0,480s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,170s
+user	0m0,492s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,380s
+user	0m0,504s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,169s
+user	0m0,488s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,163s
+user	0m0,488s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,169s
+user	0m0,500s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,171s
+user	0m0,484s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,161s
+user	0m0,472s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,172s
+user	0m0,480s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,170s
+user	0m0,496s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,162s
+user	0m0,488s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,170s
+user	0m0,484s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,166s
+user	0m0,480s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,164s
+user	0m0,484s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,170s
+user	0m0,480s
+sys	0m0,028s
+THREADS:2 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,415s
+user	0m0,740s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,468s
+user	0m0,828s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,442s
+user	0m0,796s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,419s
+user	0m0,744s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,426s
+user	0m0,764s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,414s
+user	0m0,736s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,418s
+user	0m0,748s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,443s
+user	0m0,796s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,502s
+user	0m0,784s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,416s
+user	0m0,740s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,414s
+user	0m0,732s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,422s
+user	0m0,752s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,448s
+user	0m0,800s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,424s
+user	0m0,756s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,423s
+user	0m0,752s
+sys	0m0,004s
+THREADS:4 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,336s
+user	0m1,064s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,328s
+user	0m1,044s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,324s
+user	0m1,016s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,048s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,323s
+user	0m1,008s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,052s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,044s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,048s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,325s
+user	0m1,032s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,056s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,052s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,048s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,060s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,044s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,032s
+sys	0m0,020s
+THREADS:8 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,044s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,048s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,327s
+user	0m1,028s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,056s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,060s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,060s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,064s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,036s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,036s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,332s
+user	0m1,036s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,044s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,331s
+user	0m1,060s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,044s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,328s
+user	0m1,044s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,329s
+user	0m1,036s
+sys	0m0,008s
+THREADS:16 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,331s
+user	0m1,052s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,056s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,330s
+user	0m1,044s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,076s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,331s
+user	0m1,044s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,334s
+user	0m1,056s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,068s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,336s
+user	0m1,060s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,064s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,332s
+user	0m1,044s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,334s
+user	0m1,052s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,332s
+user	0m1,056s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,332s
+user	0m1,044s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,064s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,072s
+sys	0m0,000s
+THREADS:32 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,080s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,076s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,339s
+user	0m1,080s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,068s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,339s
+user	0m1,072s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,336s
+user	0m1,072s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,339s
+user	0m1,060s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,334s
+user	0m1,060s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,068s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,336s
+user	0m1,064s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,076s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,056s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,064s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,334s
+user	0m1,044s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,068s
+sys	0m0,008s
+THREADS:64 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,052s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,064s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,340s
+user	0m1,088s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,064s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,334s
+user	0m1,060s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,064s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,340s
+user	0m1,076s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,362s
+user	0m1,072s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,036s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,341s
+user	0m1,060s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,064s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,335s
+user	0m1,064s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,040s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,343s
+user	0m1,068s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,339s
+user	0m1,080s
+sys	0m0,004s
+THREADS:128 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,347s
+user	0m1,088s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,056s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,345s
+user	0m1,072s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,340s
+user	0m1,060s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,060s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,341s
+user	0m1,080s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,337s
+user	0m1,052s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,421s
+user	0m1,096s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,346s
+user	0m1,072s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,336s
+user	0m1,060s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,064s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,343s
+user	0m1,084s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,344s
+user	0m1,076s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,338s
+user	0m1,044s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,333s
+user	0m1,056s
+sys	0m0,000s
+THREADS:256 W:1280 H:720 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,343s
+user	0m1,068s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,347s
+user	0m1,068s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,348s
+user	0m1,060s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,344s
+user	0m1,072s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,351s
+user	0m1,080s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,342s
+user	0m1,040s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m0,347s
+user	0m1,076s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,403s
+user	0m1,112s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,352s
+user	0m1,084s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,343s
+user	0m1,084s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,348s
+user	0m1,088s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,341s
+user	0m1,044s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,347s
+user	0m1,080s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,354s
+user	0m1,076s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,349s
+user	0m1,056s
+sys	0m0,028s
+THREADS:2 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,693s
+user	0m1,228s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,694s
+user	0m1,232s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,731s
+user	0m1,304s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,731s
+user	0m1,296s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,698s
+user	0m1,248s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,721s
+user	0m1,296s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,735s
+user	0m1,316s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,704s
+user	0m1,256s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,697s
+user	0m1,240s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,718s
+user	0m1,288s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,753s
+user	0m1,320s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,722s
+user	0m1,296s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,694s
+user	0m1,220s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,713s
+user	0m1,268s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,694s
+user	0m1,240s
+sys	0m0,000s
+THREADS:4 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,544s
+user	0m1,728s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,545s
+user	0m1,736s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,544s
+user	0m1,736s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,577s
+user	0m1,752s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,553s
+user	0m1,768s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,776s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,547s
+user	0m1,736s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,553s
+user	0m1,752s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,545s
+user	0m1,736s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,552s
+user	0m1,744s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,583s
+user	0m1,760s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,550s
+user	0m1,728s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,583s
+user	0m1,756s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,566s
+user	0m1,820s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,553s
+user	0m1,752s
+sys	0m0,016s
+THREADS:8 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,560s
+user	0m1,784s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,554s
+user	0m1,768s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,555s
+user	0m1,768s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,553s
+user	0m1,764s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,562s
+user	0m1,800s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,555s
+user	0m1,776s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,575s
+user	0m1,784s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,552s
+user	0m1,756s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,756s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,566s
+user	0m1,816s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,561s
+user	0m1,796s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,563s
+user	0m1,796s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,562s
+user	0m1,796s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,552s
+user	0m1,760s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,561s
+user	0m1,792s
+sys	0m0,004s
+THREADS:16 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,567s
+user	0m1,812s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,561s
+user	0m1,776s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,768s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,563s
+user	0m1,804s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,565s
+user	0m1,792s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,564s
+user	0m1,788s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,564s
+user	0m1,808s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,555s
+user	0m1,764s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,565s
+user	0m1,804s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,566s
+user	0m1,780s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,564s
+user	0m1,792s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,565s
+user	0m1,804s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,780s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,555s
+user	0m1,764s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,556s
+user	0m1,756s
+sys	0m0,020s
+THREADS:32 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,563s
+user	0m1,772s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,560s
+user	0m1,788s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,568s
+user	0m1,800s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,630s
+user	0m1,808s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,583s
+user	0m1,808s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,568s
+user	0m1,776s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,776s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,570s
+user	0m1,816s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,560s
+user	0m1,768s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,567s
+user	0m1,812s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,569s
+user	0m1,824s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,572s
+user	0m1,804s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,632s
+user	0m1,828s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,562s
+user	0m1,792s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,567s
+user	0m1,804s
+sys	0m0,008s
+THREADS:64 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,568s
+user	0m1,804s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,573s
+user	0m1,828s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,578s
+user	0m1,816s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,563s
+user	0m1,796s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,562s
+user	0m1,784s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,574s
+user	0m1,828s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,587s
+user	0m1,804s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,572s
+user	0m1,812s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,573s
+user	0m1,804s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,572s
+user	0m1,836s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,764s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,571s
+user	0m1,812s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,572s
+user	0m1,820s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,563s
+user	0m1,804s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,558s
+user	0m1,784s
+sys	0m0,000s
+THREADS:128 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,576s
+user	0m1,800s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,569s
+user	0m1,804s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,576s
+user	0m1,840s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,576s
+user	0m1,828s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,561s
+user	0m1,780s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,562s
+user	0m1,788s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,571s
+user	0m1,792s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,569s
+user	0m1,796s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,572s
+user	0m1,820s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,628s
+user	0m1,856s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,567s
+user	0m1,772s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,572s
+user	0m1,816s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,571s
+user	0m1,816s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,563s
+user	0m1,788s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,567s
+user	0m1,808s
+sys	0m0,004s
+THREADS:256 W:1440 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,571s
+user	0m1,800s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,573s
+user	0m1,764s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m0,579s
+user	0m1,828s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,630s
+user	0m1,816s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,586s
+user	0m1,824s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,573s
+user	0m1,788s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,579s
+user	0m1,824s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,579s
+user	0m1,808s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,578s
+user	0m1,784s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,577s
+user	0m1,828s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,575s
+user	0m1,800s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,600s
+user	0m1,824s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,615s
+user	0m1,824s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,585s
+user	0m1,812s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m0,580s
+user	0m1,800s
+sys	0m0,032s
+THREADS:2 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,982s
+user	0m1,752s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m1,010s
+user	0m1,808s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,986s
+user	0m1,756s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m1,017s
+user	0m1,796s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,986s
+user	0m1,764s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m1,020s
+user	0m1,828s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m1,012s
+user	0m1,808s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m1,024s
+user	0m1,840s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,985s
+user	0m1,752s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m1,014s
+user	0m1,812s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,981s
+user	0m1,756s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,982s
+user	0m1,752s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,986s
+user	0m1,764s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m1,070s
+user	0m1,828s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m1,012s
+user	0m1,804s
+sys	0m0,012s
+THREADS:4 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,771s
+user	0m2,432s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m0,786s
+user	0m2,516s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,785s
+user	0m2,516s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,807s
+user	0m2,512s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,788s
+user	0m2,476s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,775s
+user	0m2,472s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,769s
+user	0m2,444s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,784s
+user	0m2,520s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,784s
+user	0m2,520s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,788s
+user	0m2,528s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,776s
+user	0m2,472s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,785s
+user	0m2,512s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,770s
+user	0m2,452s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,786s
+user	0m2,524s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,774s
+user	0m2,468s
+sys	0m0,012s
+THREADS:8 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,782s
+user	0m2,492s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,794s
+user	0m2,524s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,795s
+user	0m2,560s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,782s
+user	0m2,488s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,779s
+user	0m2,488s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,780s
+user	0m2,500s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,793s
+user	0m2,552s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,796s
+user	0m2,568s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,783s
+user	0m2,488s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,784s
+user	0m2,516s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,782s
+user	0m2,508s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,782s
+user	0m2,500s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,798s
+user	0m2,532s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,800s
+user	0m2,560s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,797s
+user	0m2,556s
+sys	0m0,012s
+THREADS:16 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,799s
+user	0m2,576s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,813s
+user	0m2,552s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,789s
+user	0m2,536s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,788s
+user	0m2,536s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,788s
+user	0m2,504s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,789s
+user	0m2,520s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,831s
+user	0m2,616s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,791s
+user	0m2,540s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,788s
+user	0m2,536s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,800s
+user	0m2,576s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m0,791s
+user	0m2,536s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,803s
+user	0m2,576s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,798s
+user	0m2,556s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,801s
+user	0m2,564s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,802s
+user	0m2,568s
+sys	0m0,020s
+THREADS:32 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,794s
+user	0m2,540s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,843s
+user	0m2,484s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,796s
+user	0m2,548s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,803s
+user	0m2,580s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,793s
+user	0m2,536s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,795s
+user	0m2,536s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,807s
+user	0m2,572s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,797s
+user	0m2,552s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,806s
+user	0m2,580s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,798s
+user	0m2,572s
+sys	0m0,000s
+Creating Image
+Saving PNG
+
+real	0m0,792s
+user	0m2,536s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,792s
+user	0m2,496s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m0,810s
+user	0m2,612s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,808s
+user	0m2,596s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,804s
+user	0m2,564s
+sys	0m0,028s
+THREADS:64 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,808s
+user	0m2,588s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,841s
+user	0m2,608s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,809s
+user	0m2,584s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,805s
+user	0m2,592s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,810s
+user	0m2,600s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,811s
+user	0m2,596s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,809s
+user	0m2,608s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,809s
+user	0m2,576s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,800s
+user	0m2,552s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,795s
+user	0m2,532s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,796s
+user	0m2,528s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,793s
+user	0m2,524s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,810s
+user	0m2,604s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,810s
+user	0m2,604s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m0,796s
+user	0m2,532s
+sys	0m0,024s
+THREADS:128 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,810s
+user	0m2,532s
+sys	0m0,080s
+Creating Image
+Saving PNG
+
+real	0m0,808s
+user	0m2,568s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,799s
+user	0m2,560s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,803s
+user	0m2,556s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,816s
+user	0m2,596s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,802s
+user	0m2,560s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,804s
+user	0m2,568s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m0,817s
+user	0m2,580s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m0,816s
+user	0m2,592s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,803s
+user	0m2,552s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m0,816s
+user	0m2,612s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,815s
+user	0m2,576s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m0,801s
+user	0m2,540s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m0,798s
+user	0m2,548s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,813s
+user	0m2,588s
+sys	0m0,032s
+THREADS:256 W:2048 H:1080 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m0,805s
+user	0m2,548s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,855s
+user	0m2,648s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,811s
+user	0m2,564s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,820s
+user	0m2,604s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,811s
+user	0m2,552s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m0,818s
+user	0m2,608s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,824s
+user	0m2,632s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,815s
+user	0m2,596s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,878s
+user	0m2,604s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m0,805s
+user	0m2,556s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m0,805s
+user	0m2,556s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m0,827s
+user	0m2,592s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,821s
+user	0m2,600s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m0,807s
+user	0m2,540s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m0,830s
+user	0m2,596s
+sys	0m0,028s
+THREADS:2 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m3,674s
+user	0m6,540s
+sys	0m0,068s
+Creating Image
+Saving PNG
+
+real	0m3,690s
+user	0m6,588s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m3,709s
+user	0m6,660s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m3,686s
+user	0m6,604s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m3,673s
+user	0m6,588s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,675s
+user	0m6,576s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m3,698s
+user	0m6,620s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m3,683s
+user	0m6,584s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m3,691s
+user	0m6,620s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,672s
+user	0m6,588s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m3,679s
+user	0m6,584s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m3,681s
+user	0m6,608s
+sys	0m0,008s
+Creating Image
+Saving PNG
+
+real	0m3,691s
+user	0m6,620s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,653s
+user	0m6,548s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m3,683s
+user	0m6,612s
+sys	0m0,012s
+THREADS:4 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,871s
+user	0m9,192s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,915s
+user	0m9,324s
+sys	0m0,072s
+Creating Image
+Saving PNG
+
+real	0m2,915s
+user	0m9,300s
+sys	0m0,100s
+Creating Image
+Saving PNG
+
+real	0m2,908s
+user	0m9,252s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,158s
+user	0m9,104s
+sys	0m0,060s
+Creating Image
+Saving PNG
+
+real	0m2,905s
+user	0m9,336s
+sys	0m0,056s
+Creating Image
+Saving PNG
+
+real	0m2,962s
+user	0m9,536s
+sys	0m0,080s
+Creating Image
+Saving PNG
+
+real	0m2,867s
+user	0m9,208s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m2,905s
+user	0m9,360s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m2,909s
+user	0m9,368s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,867s
+user	0m9,200s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m2,906s
+user	0m9,364s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m2,935s
+user	0m9,252s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,945s
+user	0m9,380s
+sys	0m0,056s
+Creating Image
+Saving PNG
+
+real	0m2,865s
+user	0m9,160s
+sys	0m0,068s
+THREADS:8 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,954s
+user	0m9,564s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m2,909s
+user	0m9,340s
+sys	0m0,060s
+Creating Image
+Saving PNG
+
+real	0m2,911s
+user	0m9,388s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m2,960s
+user	0m9,572s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,947s
+user	0m9,508s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,908s
+user	0m9,348s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,917s
+user	0m9,328s
+sys	0m0,064s
+Creating Image
+Saving PNG
+
+real	0m2,954s
+user	0m9,528s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,952s
+user	0m9,532s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,913s
+user	0m9,364s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,951s
+user	0m9,500s
+sys	0m0,068s
+Creating Image
+Saving PNG
+
+real	0m2,911s
+user	0m9,408s
+sys	0m0,004s
+Creating Image
+Saving PNG
+
+real	0m2,916s
+user	0m9,396s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m2,952s
+user	0m9,532s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,957s
+user	0m9,576s
+sys	0m0,008s
+THREADS:16 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,978s
+user	0m9,644s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m2,981s
+user	0m9,628s
+sys	0m0,056s
+Creating Image
+Saving PNG
+
+real	0m2,980s
+user	0m9,592s
+sys	0m0,088s
+Creating Image
+Saving PNG
+
+real	0m2,935s
+user	0m9,460s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,979s
+user	0m9,628s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,999s
+user	0m9,688s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m2,980s
+user	0m9,632s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,936s
+user	0m9,476s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m2,981s
+user	0m9,640s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,978s
+user	0m9,608s
+sys	0m0,068s
+Creating Image
+Saving PNG
+
+real	0m2,980s
+user	0m9,640s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m2,938s
+user	0m9,476s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,937s
+user	0m9,436s
+sys	0m0,076s
+Creating Image
+Saving PNG
+
+real	0m2,978s
+user	0m9,628s
+sys	0m0,052s
+Creating Image
+Saving PNG
+
+real	0m2,981s
+user	0m9,652s
+sys	0m0,024s
+THREADS:32 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,994s
+user	0m9,684s
+sys	0m0,052s
+Creating Image
+Saving PNG
+
+real	0m2,987s
+user	0m9,508s
+sys	0m0,084s
+Creating Image
+Saving PNG
+
+real	0m2,992s
+user	0m9,696s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m2,955s
+user	0m9,560s
+sys	0m0,012s
+Creating Image
+Saving PNG
+
+real	0m2,949s
+user	0m9,508s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,995s
+user	0m9,684s
+sys	0m0,052s
+Creating Image
+Saving PNG
+
+real	0m3,003s
+user	0m9,684s
+sys	0m0,072s
+Creating Image
+Saving PNG
+
+real	0m2,955s
+user	0m9,528s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,953s
+user	0m9,532s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m2,997s
+user	0m9,708s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m2,950s
+user	0m9,524s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m2,993s
+user	0m9,672s
+sys	0m0,060s
+Creating Image
+Saving PNG
+
+real	0m2,951s
+user	0m9,552s
+sys	0m0,016s
+Creating Image
+Saving PNG
+
+real	0m3,029s
+user	0m9,752s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m2,949s
+user	0m9,536s
+sys	0m0,028s
+THREADS:64 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,963s
+user	0m9,532s
+sys	0m0,080s
+Creating Image
+Saving PNG
+
+real	0m3,016s
+user	0m9,724s
+sys	0m0,068s
+Creating Image
+Saving PNG
+
+real	0m2,968s
+user	0m9,556s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,999s
+user	0m9,724s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m3,005s
+user	0m9,756s
+sys	0m0,024s
+Creating Image
+Saving PNG
+
+real	0m2,959s
+user	0m9,540s
+sys	0m0,056s
+Creating Image
+Saving PNG
+
+real	0m3,039s
+user	0m9,792s
+sys	0m0,032s
+Creating Image
+Saving PNG
+
+real	0m3,010s
+user	0m9,740s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m3,006s
+user	0m9,752s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m2,963s
+user	0m9,552s
+sys	0m0,060s
+Creating Image
+Saving PNG
+
+real	0m2,999s
+user	0m9,700s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m3,006s
+user	0m9,732s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,966s
+user	0m9,588s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,003s
+user	0m9,732s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m3,033s
+user	0m9,748s
+sys	0m0,052s
+THREADS:128 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,973s
+user	0m9,616s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,011s
+user	0m9,720s
+sys	0m0,072s
+Creating Image
+Saving PNG
+
+real	0m3,016s
+user	0m9,720s
+sys	0m0,096s
+Creating Image
+Saving PNG
+
+real	0m3,018s
+user	0m9,768s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m3,007s
+user	0m9,740s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m3,010s
+user	0m9,624s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m3,005s
+user	0m9,756s
+sys	0m0,028s
+Creating Image
+Saving PNG
+
+real	0m3,013s
+user	0m9,760s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m2,965s
+user	0m9,540s
+sys	0m0,080s
+Creating Image
+Saving PNG
+
+real	0m3,003s
+user	0m9,616s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,973s
+user	0m9,576s
+sys	0m0,052s
+Creating Image
+Saving PNG
+
+real	0m2,970s
+user	0m9,556s
+sys	0m0,072s
+Creating Image
+Saving PNG
+
+real	0m2,972s
+user	0m9,572s
+sys	0m0,064s
+Creating Image
+Saving PNG
+
+real	0m3,007s
+user	0m9,564s
+sys	0m0,092s
+Creating Image
+Saving PNG
+
+real	0m2,967s
+user	0m9,592s
+sys	0m0,036s
+THREADS:256 W:3840 H:2160 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m2,983s
+user	0m9,568s
+sys	0m0,084s
+Creating Image
+Saving PNG
+
+real	0m2,983s
+user	0m9,608s
+sys	0m0,040s
+Creating Image
+Saving PNG
+
+real	0m2,986s
+user	0m9,568s
+sys	0m0,088s
+Creating Image
+Saving PNG
+
+real	0m3,019s
+user	0m9,752s
+sys	0m0,068s
+Creating Image
+Saving PNG
+
+real	0m3,025s
+user	0m9,736s
+sys	0m0,096s
+Creating Image
+Saving PNG
+
+real	0m2,972s
+user	0m9,560s
+sys	0m0,064s
+Creating Image
+Saving PNG
+
+real	0m3,017s
+user	0m9,780s
+sys	0m0,036s
+Creating Image
+Saving PNG
+
+real	0m3,025s
+user	0m9,748s
+sys	0m0,080s
+Creating Image
+Saving PNG
+
+real	0m2,980s
+user	0m9,604s
+sys	0m0,044s
+Creating Image
+Saving PNG
+
+real	0m2,983s
+user	0m9,604s
+sys	0m0,052s
+Creating Image
+Saving PNG
+
+real	0m3,023s
+user	0m9,772s
+sys	0m0,052s
+Creating Image
+Saving PNG
+
+real	0m2,979s
+user	0m9,552s
+sys	0m0,092s
+Creating Image
+Saving PNG
+
+real	0m2,983s
+user	0m9,564s
+sys	0m0,048s
+Creating Image
+Saving PNG
+
+real	0m2,974s
+user	0m9,624s
+sys	0m0,020s
+Creating Image
+Saving PNG
+
+real	0m3,033s
+user	0m9,784s
+sys	0m0,060s
+THREADS:2 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m14,611s
+user	0m26,144s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m14,660s
+user	0m26,316s
+sys	0m0,084s
+Creating Image
+Saving PNG
+
+real	0m14,642s
+user	0m26,212s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m14,583s
+user	0m26,132s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m14,577s
+user	0m26,144s
+sys	0m0,084s
+Creating Image
+Saving PNG
+
+real	0m14,595s
+user	0m26,168s
+sys	0m0,104s
+Creating Image
+Saving PNG
+
+real	0m14,612s
+user	0m26,172s
+sys	0m0,096s
+Creating Image
+Saving PNG
+
+real	0m14,578s
+user	0m26,120s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m14,687s
+user	0m26,336s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m14,674s
+user	0m26,292s
+sys	0m0,124s
+Creating Image
+Saving PNG
+
+real	0m14,711s
+user	0m26,344s
+sys	0m0,124s
+Creating Image
+Saving PNG
+
+real	0m14,680s
+user	0m26,304s
+sys	0m0,136s
+Creating Image
+Saving PNG
+
+real	0m14,662s
+user	0m26,296s
+sys	0m0,104s
+Creating Image
+Saving PNG
+
+real	0m14,609s
+user	0m26,172s
+sys	0m0,128s
+Creating Image
+Saving PNG
+
+real	0m14,591s
+user	0m26,140s
+sys	0m0,112s
+THREADS:4 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m11,443s
+user	0m36,712s
+sys	0m0,180s
+Creating Image
+Saving PNG
+
+real	0m11,409s
+user	0m36,736s
+sys	0m0,080s
+Creating Image
+Saving PNG
+
+real	0m11,440s
+user	0m36,820s
+sys	0m0,156s
+Creating Image
+Saving PNG
+
+real	0m11,403s
+user	0m36,720s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m11,577s
+user	0m37,324s
+sys	0m0,204s
+Creating Image
+Saving PNG
+
+real	0m11,404s
+user	0m36,736s
+sys	0m0,108s
+Creating Image
+Saving PNG
+
+real	0m11,407s
+user	0m36,704s
+sys	0m0,164s
+Creating Image
+Saving PNG
+
+real	0m11,584s
+user	0m37,428s
+sys	0m0,124s
+Creating Image
+Saving PNG
+
+real	0m11,632s
+user	0m37,572s
+sys	0m0,096s
+Creating Image
+Saving PNG
+
+real	0m11,571s
+user	0m37,428s
+sys	0m0,104s
+Creating Image
+Saving PNG
+
+real	0m11,586s
+user	0m37,420s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,402s
+user	0m36,692s
+sys	0m0,112s
+Creating Image
+Saving PNG
+
+real	0m11,396s
+user	0m36,700s
+sys	0m0,124s
+Creating Image
+Saving PNG
+
+real	0m11,576s
+user	0m37,412s
+sys	0m0,128s
+Creating Image
+Saving PNG
+
+real	0m11,543s
+user	0m37,156s
+sys	0m0,124s
+THREADS:8 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m11,587s
+user	0m37,456s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m11,589s
+user	0m37,460s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m11,800s
+user	0m38,136s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,628s
+user	0m37,560s
+sys	0m0,168s
+Creating Image
+Saving PNG
+
+real	0m11,757s
+user	0m38,048s
+sys	0m0,196s
+Creating Image
+Saving PNG
+
+real	0m11,623s
+user	0m37,564s
+sys	0m0,152s
+Creating Image
+Saving PNG
+
+real	0m11,674s
+user	0m37,700s
+sys	0m0,104s
+Creating Image
+Saving PNG
+
+real	0m11,818s
+user	0m38,216s
+sys	0m0,124s
+Creating Image
+Saving PNG
+
+real	0m11,597s
+user	0m37,440s
+sys	0m0,148s
+Creating Image
+Saving PNG
+
+real	0m11,607s
+user	0m37,476s
+sys	0m0,152s
+Creating Image
+Saving PNG
+
+real	0m11,639s
+user	0m37,492s
+sys	0m0,172s
+Creating Image
+Saving PNG
+
+real	0m11,607s
+user	0m37,544s
+sys	0m0,092s
+Creating Image
+Saving PNG
+
+real	0m11,779s
+user	0m38,204s
+sys	0m0,136s
+Creating Image
+Saving PNG
+
+real	0m11,627s
+user	0m37,524s
+sys	0m0,092s
+Creating Image
+Saving PNG
+
+real	0m11,591s
+user	0m37,460s
+sys	0m0,124s
+THREADS:16 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m11,742s
+user	0m37,972s
+sys	0m0,104s
+Creating Image
+Saving PNG
+
+real	0m11,715s
+user	0m37,968s
+sys	0m0,112s
+Creating Image
+Saving PNG
+
+real	0m11,891s
+user	0m38,568s
+sys	0m0,148s
+Creating Image
+Saving PNG
+
+real	0m11,868s
+user	0m38,612s
+sys	0m0,076s
+Creating Image
+Saving PNG
+
+real	0m11,868s
+user	0m38,584s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m11,696s
+user	0m37,748s
+sys	0m0,260s
+Creating Image
+Saving PNG
+
+real	0m11,707s
+user	0m37,912s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m11,895s
+user	0m38,628s
+sys	0m0,172s
+Creating Image
+Saving PNG
+
+real	0m11,886s
+user	0m38,540s
+sys	0m0,216s
+Creating Image
+Saving PNG
+
+real	0m11,871s
+user	0m38,524s
+sys	0m0,176s
+Creating Image
+Saving PNG
+
+real	0m11,699s
+user	0m37,836s
+sys	0m0,172s
+Creating Image
+Saving PNG
+
+real	0m11,714s
+user	0m37,940s
+sys	0m0,132s
+Creating Image
+Saving PNG
+
+real	0m11,718s
+user	0m37,916s
+sys	0m0,092s
+Creating Image
+Saving PNG
+
+real	0m11,718s
+user	0m37,964s
+sys	0m0,148s
+Creating Image
+Saving PNG
+
+real	0m11,867s
+user	0m38,560s
+sys	0m0,140s
+THREADS:32 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m11,941s
+user	0m38,848s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m11,976s
+user	0m38,892s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,935s
+user	0m38,820s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,980s
+user	0m38,728s
+sys	0m0,208s
+Creating Image
+Saving PNG
+
+real	0m11,947s
+user	0m38,880s
+sys	0m0,132s
+Creating Image
+Saving PNG
+
+real	0m11,944s
+user	0m38,776s
+sys	0m0,200s
+Creating Image
+Saving PNG
+
+real	0m11,942s
+user	0m38,752s
+sys	0m0,200s
+Creating Image
+Saving PNG
+
+real	0m11,772s
+user	0m38,176s
+sys	0m0,068s
+Creating Image
+Saving PNG
+
+real	0m11,761s
+user	0m38,092s
+sys	0m0,176s
+Creating Image
+Saving PNG
+
+real	0m11,762s
+user	0m38,156s
+sys	0m0,112s
+Creating Image
+Saving PNG
+
+real	0m11,797s
+user	0m38,120s
+sys	0m0,196s
+Creating Image
+Saving PNG
+
+real	0m11,939s
+user	0m38,852s
+sys	0m0,132s
+Creating Image
+Saving PNG
+
+real	0m11,945s
+user	0m38,872s
+sys	0m0,112s
+Creating Image
+Saving PNG
+
+real	0m11,805s
+user	0m38,188s
+sys	0m0,136s
+Creating Image
+Saving PNG
+
+real	0m11,953s
+user	0m38,892s
+sys	0m0,120s
+THREADS:64 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m12,004s
+user	0m38,952s
+sys	0m0,180s
+Creating Image
+Saving PNG
+
+real	0m11,797s
+user	0m38,280s
+sys	0m0,112s
+Creating Image
+Saving PNG
+
+real	0m11,811s
+user	0m38,252s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,975s
+user	0m38,964s
+sys	0m0,128s
+Creating Image
+Saving PNG
+
+real	0m11,972s
+user	0m39,008s
+sys	0m0,096s
+Creating Image
+Saving PNG
+
+real	0m11,979s
+user	0m38,972s
+sys	0m0,164s
+Creating Image
+Saving PNG
+
+real	0m11,792s
+user	0m38,260s
+sys	0m0,128s
+Creating Image
+Saving PNG
+
+real	0m11,980s
+user	0m38,956s
+sys	0m0,152s
+Creating Image
+Saving PNG
+
+real	0m12,004s
+user	0m38,976s
+sys	0m0,156s
+Creating Image
+Saving PNG
+
+real	0m11,804s
+user	0m38,288s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m11,791s
+user	0m38,232s
+sys	0m0,156s
+Creating Image
+Saving PNG
+
+real	0m11,978s
+user	0m38,976s
+sys	0m0,136s
+Creating Image
+Saving PNG
+
+real	0m11,832s
+user	0m38,280s
+sys	0m0,124s
+Creating Image
+Saving PNG
+
+real	0m11,800s
+user	0m38,284s
+sys	0m0,108s
+Creating Image
+Saving PNG
+
+real	0m11,968s
+user	0m38,972s
+sys	0m0,128s
+THREADS:128 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m11,887s
+user	0m38,364s
+sys	0m0,180s
+Creating Image
+Saving PNG
+
+real	0m11,992s
+user	0m39,052s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m11,990s
+user	0m39,028s
+sys	0m0,140s
+Creating Image
+Saving PNG
+
+real	0m11,993s
+user	0m39,032s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,813s
+user	0m38,320s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m11,998s
+user	0m38,948s
+sys	0m0,224s
+Creating Image
+Saving PNG
+
+real	0m12,055s
+user	0m39,024s
+sys	0m0,208s
+Creating Image
+Saving PNG
+
+real	0m11,990s
+user	0m38,980s
+sys	0m0,144s
+Creating Image
+Saving PNG
+
+real	0m12,029s
+user	0m39,112s
+sys	0m0,096s
+Creating Image
+Saving PNG
+
+real	0m12,029s
+user	0m39,100s
+sys	0m0,116s
+Creating Image
+Saving PNG
+
+real	0m11,832s
+user	0m38,380s
+sys	0m0,140s
+Creating Image
+Saving PNG
+
+real	0m12,005s
+user	0m39,016s
+sys	0m0,184s
+Creating Image
+Saving PNG
+
+real	0m11,815s
+user	0m38,312s
+sys	0m0,148s
+Creating Image
+Saving PNG
+
+real	0m12,083s
+user	0m39,156s
+sys	0m0,160s
+Creating Image
+Saving PNG
+
+real	0m12,031s
+user	0m39,040s
+sys	0m0,168s
+THREADS:256 W:7680 H:4320 SEQUENCIAL
+Creating Image
+Saving PNG
+
+real	0m11,833s
+user	0m38,356s
+sys	0m0,180s
+Creating Image
+Saving PNG
+
+real	0m11,858s
+user	0m38,420s
+sys	0m0,120s
+Creating Image
+Saving PNG
+
+real	0m12,014s
+user	0m39,032s
+sys	0m0,184s
+Creating Image
+Saving PNG
+
+real	0m11,832s
+user	0m38,340s
+sys	0m0,160s
+Creating Image
+Saving PNG
+
+real	0m11,830s
+user	0m38,304s
+sys	0m0,228s
+Creating Image
+Saving PNG
+
+real	0m12,011s
+user	0m39,064s
+sys	0m0,180s
+Creating Image
+Saving PNG
+
+real	0m11,829s
+user	0m38,332s
+sys	0m0,188s
+Creating Image
+Saving PNG
+
+real	0m11,835s
+user	0m38,368s
+sys	0m0,128s
+Creating Image
+Saving PNG
+
+real	0m12,015s
+user	0m39,100s
+sys	0m0,136s
+Creating Image
+Saving PNG
+
+real	0m12,010s
+user	0m39,108s
+sys	0m0,140s
+Creating Image
+Saving PNG
+
+real	0m12,018s
+user	0m39,032s
+sys	0m0,216s
+Creating Image
+Saving PNG
+
+real	0m11,835s
+user	0m38,324s
+sys	0m0,200s
+Creating Image
+Saving PNG
+
+real	0m12,053s
+user	0m39,116s
+sys	0m0,100s
+Creating Image
+Saving PNG
+
+real	0m11,838s
+user	0m38,356s
+sys	0m0,176s
+Creating Image
+Saving PNG
+
+real	0m11,836s
+user	0m38,404s
+sys	0m0,128s
